@@ -31,9 +31,7 @@ x2 = floor((1 - double(lat2 + 90.0) / 180.0) * H);
 y2 = floor((double(lng2 + 180.0) / 360.0) * W);
 
 I = I_origin(x1:x2, y1:y2, :);
-
-%W_DownSample = 0.5;
-%H_DownSample = 0.5;
+%imshow(I);
 
 [h,w,n] = size(I);
 
