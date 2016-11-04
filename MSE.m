@@ -52,6 +52,8 @@ MSE_nearest = sum( sum(sum((I-I_NEARESR_SU).^2))/(w*h) ) / 3;
 MSE_bilinear = sum( sum(sum((I-I_BILINEAR_SU).^2))/(w*h) ) / 3;
 MSE_bicubic = sum( sum(sum((I-I_BICUBIC_SU).^2))/(w*h) ) / 3;
 
+%PSNR=20*log10(MAX/sqrt(MES));
+
 
 
 
